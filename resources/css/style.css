@@ -25,18 +25,45 @@ header {
 
 img {
   height: 50px;
+  align-items: center;
+
 }
 
 span {
-  padding-right: 20px;
+  padding-right: 15px;
   text-decoration: underline;
 }
 
 /*Content*/
+  /*Mission*/
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
 .mission {
   height: 700px;
   width: 1200px;
-  display:flex;
+  display:inline-flex;
+  flex-direction:column;
   align-items: center;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  justify-content: center;
+
+
 }
+h2,h4 {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+h2  {
+  font-size: 44px;
+  padding-bottom: 20px;
+}
+h4  {
+  padding-bottom: 10px;
+}
+
+  /*Featured Tea*/
